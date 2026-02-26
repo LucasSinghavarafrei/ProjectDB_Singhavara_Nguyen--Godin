@@ -1,6 +1,6 @@
 My prompt :
 You work in the field of KPOP. Your company is involved in the domain of music. It is a company such as SM ENTERTAINEMENT or JYP ENTERTAINEMENT. We collect
-data of how to create a group of kpop, the creation of album. Take inspiration from the following groups aespa, blackpink or twice (https://fr.wikipedia.org/wiki/Aespa, https://twice.jype.com/Default).
+data of how to create a group of kpop, the creation of album. Take inspiration from the following groups AESPA, BLACKPINK or TWICE (https://fr.wikipedia.org/wiki/Aespa, https://twice.jype.com/Default).
 Your company wants to apply MERISE to design an information system.
 You are responsible for the analysis part, i.e., gathering the company's requirements. It has called on a computer engineering student to carry out this project, and you must provide him with the necessary information so that he can
 then apply the following steps of database design and development himself.
