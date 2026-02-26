@@ -1,4 +1,4 @@
-My prompt :
+Our prompt :
 You work in the field of KPOP. Your company is involved in the domain of music. It is a company such as SM ENTERTAINEMENT or JYP ENTERTAINEMENT. We collect
 data of how to create a group of kpop, the creation of album. Take inspiration from the following groups AESPA, BLACKPINK or TWICE (https://fr.wikipedia.org/wiki/Aespa, https://twice.jype.com/Default).
 Your company wants to apply MERISE to design an information system.
@@ -10,12 +10,11 @@ Provide the business rules and the data dictionary.
 
 Prompt answer :
 It is great to meet you. As the Head of Strategy here at Nova-Genesis Entertainment (think of us as the next SM or JYP), I’m excited to get this information system off the ground.
-
 To help you build our database using the MERISE method, I’ve broken down our operations. We specialize in "Concept-First" groups—much like aespa or TWICE—where every member, album, and marketing campaign is part of a larger, interconnected "universe."
-
 Here are the business rules and the data dictionary for our project.
 
 1. Business Rules
+2. 
 These rules represent how our company operates daily. They define the relationships between our artists, their music, and how we talk to the fans.
 
 Artists & Groups: An artist can be a solo performer or a member of a group. A group must have at least one member. Each artist has a specific role (Main Vocal, Main Dancer, etc.).
