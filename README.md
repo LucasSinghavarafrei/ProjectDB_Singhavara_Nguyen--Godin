@@ -1,3 +1,6 @@
+Project Overview
+Design and analysis of a dedicated Information System for a K-Pop Music agency. The system manages KPOP group such as the creation of it, the the role of each member, the creation of albums and tracks.  
+
 Our prompt :
 You work in the field of KPOP. Your company is involved in the domain of music. It is a company such as SM ENTERTAINEMENT or JYP ENTERTAINEMENT. We collect
 data of how to create a group of kpop, the creation of album. Take inspiration from the following groups AESPA, BLACKPINK or TWICE (https://fr.wikipedia.org/wiki/Aespa, https://twice.jype.com/Default).
