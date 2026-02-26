@@ -1,13 +1,14 @@
-You work in the field of KPOP. Your Company is involved in the domain of Music. It is a [company] such as [SM ENTERTAINEMENT / JYP ENTERTAINEMENT]. We collect
-data of how to create a group of kpop, the creation of album, to manage the communication of the group and the marketing behind it. Take inspiration from the following [aespa/blackpink/twice]:[https://fr.wikipedia.org/wiki/Aespa
-https://twice.jype.com/Default].
-Your [company/] wants to apply MERISE to design an information system.
+My prompt :
+You work in the field of KPOP. Your Company is involved in the domain of Music. It is a company such as SM ENTERTAINEMENT or JYP ENTERTAINEMENT. We collect
+data of how to create a group of kpop, the creation of album, how to manage the communication of the group and the marketing behind it. Take inspiration from the following groups aespa, blackpink or twice (https://fr.wikipedia.org/wiki/Aespa, https://twice.jype.com/Default).
+Your company wants to apply MERISE to design an information system.
 You are responsible for the analysis part, i.e., gathering the company's requirements. It has called on a computer engineering student to carry out this project, and you must provide him with the necessary information so that he can
 then apply the following steps of database design and development himself.
-First, establish the data business rules for your [company] in the form of a bulleted list. It must correspond to the information provided by someone who knows how the company works, but not how an information system isbuilt.
-Next, based on these rules, provide a raw data dictionary with the following columns, grouped in a table: meaning of the data, type, size in number of characters or digits. There should be between 25 and 35 data items. It is used to provide additional information about each data item(size and type) but without any assumptions about how the data will be modeledlater.
+First, establish the data business rules for your company in the form of a bulleted list. It must correspond to the information provided by someone who knows how the company works, but not how an information system is built.
+Next, based on these rules, provide a raw data dictionary with the following columns, grouped in a table: meaning of the data, type, size in number of characters or digits. There should be between 25 and 35 data items. It is used to provide additional information about each data item (size and type) but without any assumptions about how the data will be modeledlater.
 Provide the business rules and the data dictionary.
 
+Prompt answer :
 It is great to meet you. As the Head of Strategy here at Nova-Genesis Entertainment (think of us as the next SM or JYP), I’m excited to get this information system off the ground.
 
 To help you build our database using the MERISE method, I’ve broken down our operations. We specialize in "Concept-First" groups—much like aespa or TWICE—where every member, album, and marketing campaign is part of a larger, interconnected "universe."
@@ -34,3 +35,6 @@ Marketing Campaigns: A marketing campaign is launched to promote a specific albu
 Merchandising: Every album launch is accompanied by specific merchandise items (Lightsticks, Photocards, Photocards sets). We track the stock and price for each.
 
 Fan Engagement: Fans can register for an official "Fanclub." Each fanclub is dedicated to one specific group.
+
+My MCD :
+<img width="1742" height="1302" alt="image" src="https://github.com/user-attachments/assets/f59afafb-eddf-43a4-bce3-8cdce5cb1bfa" />
