@@ -1,4 +1,4 @@
-Project Overview
+Project Overview :
 Design and analysis of a dedicated Information System for a K-Pop Music agency. The system manages KPOP group such as the creation of it, the production of albums and tracks.  
 
 Our prompt :
