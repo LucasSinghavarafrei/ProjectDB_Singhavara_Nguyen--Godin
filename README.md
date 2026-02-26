@@ -1,5 +1,5 @@
 Project Overview
-Design and analysis of a dedicated Information System for a K-Pop Music agency. The system manages KPOP group such as the creation of it, the the role of each member, the creation of albums and tracks.  
+Design and analysis of a dedicated Information System for a K-Pop Music agency. The system manages KPOP group such as the creation of it, the production of albums and tracks.  
 
 Our prompt :
 You work in the field of KPOP. Your company is involved in the domain of music. It is a company such as SM ENTERTAINEMENT or JYP ENTERTAINEMENT. We collect
