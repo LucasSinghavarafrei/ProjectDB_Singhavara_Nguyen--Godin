@@ -11,7 +11,7 @@ CREATE TABLE ALBUM(
    Album_ID VARCHAR(50),
    Album_Title VARCHAR(50),
    Release_Date VARCHAR(50),
-   Album_Type VARCHAR(50),
+   Album_Genre VARCHAR(50),
    Group_ID VARCHAR(50) NOT NULL,
    PRIMARY KEY(Album_ID),
    FOREIGN KEY(Group_ID) REFERENCES GROUP_(Group_ID)
@@ -38,6 +38,7 @@ CREATE TABLE PRODUCER(
 CREATE TABLE FANCLUB(
    Fanclub_ID VARCHAR(50),
    Fanclub_Name VARCHAR(50),
+   Creation_Date VARCHAR(50),
    Group_ID VARCHAR(50) NOT NULL,
    PRIMARY KEY(Fanclub_ID),
    UNIQUE(Group_ID),
@@ -58,7 +59,7 @@ CREATE TABLE ARTIST(
    Nationality VARCHAR(50),
    Position_ VARCHAR(50),
    Real_Name VARCHAR(50),
-   irth_Date VARCHAR(50),
+   Birth_Date VARCHAR(50),
    Group_ID VARCHAR(50) NOT NULL,
    PRIMARY KEY(Artist_ID),
    FOREIGN KEY(Group_ID) REFERENCES GROUP_(Group_ID)
