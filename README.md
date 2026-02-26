@@ -1,6 +1,6 @@
 My prompt :
 You work in the field of KPOP. Your Company is involved in the domain of Music. It is a company such as SM ENTERTAINEMENT or JYP ENTERTAINEMENT. We collect
-data of how to create a group of kpop, the creation of album, how to manage the communication of the group and the marketing behind it. Take inspiration from the following groups aespa, blackpink or twice (https://fr.wikipedia.org/wiki/Aespa, https://twice.jype.com/Default).
+data of how to create a group of kpop, the creation of album. Take inspiration from the following groups aespa, blackpink or twice (https://fr.wikipedia.org/wiki/Aespa, https://twice.jype.com/Default).
 Your company wants to apply MERISE to design an information system.
 You are responsible for the analysis part, i.e., gathering the company's requirements. It has called on a computer engineering student to carry out this project, and you must provide him with the necessary information so that he can
 then apply the following steps of database design and development himself.
@@ -27,12 +27,6 @@ Album Production: An album is produced by the company and is linked to exactly o
 Track Details: A track has a title, a duration, and a "vibe" category. A track can appear on only one album (excluding remixes, which we treat as new tracks).
 
 Production Credits: Each track is composed and written by one or more producers/songwriters. We need to track their royalty percentages.
-
-Communication & Socials: Each group has multiple official social media accounts (Instagram, TikTok, X). Each account is managed by a specific staff member.
-
-Marketing Campaigns: A marketing campaign is launched to promote a specific album. A campaign includes several "events" (Teaser drops, Showcase, Pop-up stores).
-
-Merchandising: Every album launch is accompanied by specific merchandise items (Lightsticks, Photocards, Photocards sets). We track the stock and price for each.
 
 Fan Engagement: Fans can register for an official "Fanclub." Each fanclub is dedicated to one specific group.
 
