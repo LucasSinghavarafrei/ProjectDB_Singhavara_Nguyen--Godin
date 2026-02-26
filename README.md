@@ -31,4 +31,5 @@ Production Credits: Each track is composed and written by one or more producers/
 Fan Engagement: Fans can register for an official "Fanclub." Each fanclub is dedicated to one specific group.
 
 My MCD :
-<img width="1742" height="1302" alt="image" src="https://github.com/user-attachments/assets/f59afafb-eddf-43a4-bce3-8cdce5cb1bfa" />
+<img width="1612" height="1258" alt="image" src="https://github.com/user-attachments/assets/a260e831-e726-4835-b493-5e1e9f1b89d9" />
+
