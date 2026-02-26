@@ -14,7 +14,7 @@ To help you build our database using the MERISE method, I’ve broken down our o
 Here are the business rules and the data dictionary for our project.
 
 1. Business Rules
-2. 
+   
 These rules represent how our company operates daily. They define the relationships between our artists, their music, and how we talk to the fans.
 
 Artists & Groups: An artist can be a solo performer or a member of a group. A group must have at least one member. Each artist has a specific role (Main Vocal, Main Dancer, etc.).
@@ -29,6 +29,6 @@ Production Credits: Each track is composed and written by one or more producers/
 
 Fan Engagement: Fans can register for an official "Fanclub." Each fanclub is dedicated to one specific group.
 
-My MCD :
+Our MCD :
 <img width="1612" height="1258" alt="image" src="https://github.com/user-attachments/assets/a260e831-e726-4835-b493-5e1e9f1b89d9" />
 
