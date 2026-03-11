@@ -59,7 +59,7 @@ CREATE TABLE ARTIST(
    Nationality VARCHAR(50),
    Position_ VARCHAR(50),
    Real_Name VARCHAR(50),
-   Birth_Date VARCHAR(50),
+   Age VARCHAR(50),
    Group_ID VARCHAR(50) NOT NULL,
    PRIMARY KEY(Artist_ID),
    FOREIGN KEY(Group_ID) REFERENCES GROUP_(Group_ID)
