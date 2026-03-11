@@ -22,4 +22,4 @@ CHECK (LENGTH(TRIM(Producer_Pseudo)) >= 2);
 
 ALTER TABLE FANCLUB 
 ADD CONSTRAINT chk_fanclub_name_length 
-CHECK (LENGTH(TRIM(Fanclub_Name)) >= 3);
+CHECK (LENGTH(TRIM(Fanclub_Name)) >= 2);
