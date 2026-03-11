@@ -1,4 +1,5 @@
-use project2
+CREATE DATABASE IF NOT EXISTS label_management;
+Use label_management;
 
 CREATE TABLE GROUP_(
    Group_ID VARCHAR(50),
