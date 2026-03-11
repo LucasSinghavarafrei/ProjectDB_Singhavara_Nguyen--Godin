@@ -75,3 +75,18 @@ CREATE TABLE ARTIST(
       ON UPDATE CASCADE,
 );
 
+CREATE TABLE composes(
+   Track_ID VARCHAR(50),
+   Producer_ID VARCHAR(50),
+   PRIMARY KEY(Track_ID, Producer_ID),
+   FOREIGN KEY(Track_ID) REFERENCES TRACK(Track_ID),
+   FOREIGN KEY(Producer_ID) REFERENCES PRODUCER(Producer_ID)
+);
+
+CREATE TABLE belongs_to_2_(
+   Fanclub_ID VARCHAR(50),
+   Fan_ID VARCHAR(50),
+   PRIMARY KEY(Fanclub_ID, Fan_ID),
+   FOREIGN KEY(Fanclub_ID) REFERENCES FANCLUB(Fanclub_ID),
+   FOREIGN KEY(Fan_ID) REFERENCES FAN(Fan_ID)
+);
