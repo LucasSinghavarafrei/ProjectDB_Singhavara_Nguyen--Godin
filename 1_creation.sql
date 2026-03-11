@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS label_management;
 Use label_management;
 
-CREATE TABLE GROUP_(
+CREATE TABLE GROUP_KPOP(
    Group_ID VARCHAR(50),
    Group_Name VARCHAR(50) NOT NULL,
    Debut_Date DATE,
@@ -33,7 +33,7 @@ CREATE TABLE TRACK(
    FOREIGN KEY(Album_ID) REFERENCES ALBUM(Album_ID) 
       ON DELETE CASCADE 
       ON UPDATE CASCADE
-);
+      );
 
 CREATE TABLE PRODUCER(
    Producer_ID VARCHAR(50),
