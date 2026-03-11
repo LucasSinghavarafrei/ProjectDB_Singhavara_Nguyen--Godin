@@ -35,3 +35,15 @@ Fan Engagement: Fans can register for an official "Fanclub." Each fanclub is ded
 Our MCD :
 <img width="1612" height="1258" alt="image" src="https://github.com/user-attachments/assets/a260e831-e726-4835-b493-5e1e9f1b89d9" />
 
+Our LDM : 
+GROUP_ = (Group_ID VARCHAR(50), Group_Name VARCHAR(50), Debut_Date VARCHAR(50), Lore_Description VARCHAR(50), Concept_type VARCHAR(50));
+ALBUM = (Album_ID VARCHAR(50), Album_Title VARCHAR(50), Release_Date VARCHAR(50), Album_Genre VARCHAR(50), #Group_ID);
+TRACK = (Track_ID VARCHAR(50), Track_Title VARCHAR(50), Duration_Sec VARCHAR(50), BPM VARCHAR(50), Is_Hit_Song LOGICAL, #Album_ID);
+PRODUCER = (Producer_ID VARCHAR(50), Producer_Pseudo VARCHAR(50), Producer_Name VARCHAR(50));
+FANCLUB = (Fanclub_ID VARCHAR(50), Fanclub_Name VARCHAR(50), Creation_Date VARCHAR(50), #Group_ID);
+FAN = (Fan_ID VARCHAR(50), Fan_Name VARCHAR(50), Fan_Email VARCHAR(50), Join_Date VARCHAR(50));
+ARTIST = (Artist_ID VARCHAR(50), Stage_Name VARCHAR(50), Nationality VARCHAR(50), Position_ VARCHAR(50), Real_Name VARCHAR(50), Birth_Date VARCHAR(50), #Group_ID);
+composes = (#Track_ID, #Producer_ID);
+belongs_to_2_ = (#Fanclub_ID, #Fan_ID);
+
+
