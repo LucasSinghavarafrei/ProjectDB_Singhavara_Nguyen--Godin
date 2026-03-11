@@ -20,7 +20,6 @@ INSERT INTO ALBUM (Album_ID, Album_Title, Release_Date, Album_Genre, Group_ID) V
 ('ALB_AE2', 'My World', '2023-05-08', 'Pop/EDM', 'GRP_AE');
 
 -- 4. INSERT INTO TRACK
--- Attention : Toutes les durées (Duration_Sec) sont >= 90 secondes !
 INSERT INTO TRACK (Track_ID, Track_Title, Duration_Sec, BPM, Is_Hit_Song, Album_ID) VALUES
 -- BLACKPINK
 ('TRK_BP01', 'How You Like That', 182, 130, TRUE, 'ALB_BP1'),
@@ -46,7 +45,6 @@ INSERT INTO PRODUCER (Producer_ID, Producer_Pseudo, Producer_Name) VALUES
 ('PRD_YYJ', 'Yoo Young-jin', 'Yoo Young-jin');
 
 -- 6. INSERT INTO ARTIST
--- Attention : Postes limités à dancer, singer, rapper, visual / Âge >= 16
 INSERT INTO ARTIST (Artist_ID, Stage_Name, Nationality, Position_, Real_Name, Age, Group_ID) VALUES
 -- BLACKPINK
 ('ART_BP1', 'Jisoo', 'South Korean', 'visual', 'Kim Ji-soo', 29, 'GRP_BP'),
