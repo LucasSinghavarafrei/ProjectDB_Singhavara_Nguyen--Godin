@@ -56,10 +56,14 @@ INSERT INTO ARTIST (Artist_ID, Stage_Name, Nationality, Position_, Real_Name, Ag
 ('ART_BP4', 'Lisa', 'Thai', 'dancer', 'Lalisa Manobal', 27, 'GRP_BP'),
 -- TWICE (Sélection de 5 membres pour varier)
 ('ART_TW1', 'Nayeon', 'South Korean', 'singer', 'Im Na-yeon', 28, 'GRP_TW'),
-('ART_TW2', 'Momo', 'Japanese', 'dancer', 'Hirai Momo', 27, 'GRP_TW'),
-('ART_TW3', 'Jihyo', 'South Korean', 'singer', 'Park Ji-hyo', 27, 'GRP_TW'),
-('ART_TW4', 'Dahyun', 'South Korean', 'rapper', 'Kim Da-hyun', 25, 'GRP_TW'),
-('ART_TW5', 'Tzuyu', 'Taiwanese', 'visual', 'Chou Tzu-yu', 24, 'GRP_TW'),
+('ART_TW2', 'Jeongyeon', 'South Korean', 'singer', 'Yoo Jeong-yeon', 27, 'GRP_TW'),
+('ART_TW3', 'Momo', 'Japanese', 'dancer', 'Hirai Momo', 27, 'GRP_TW'),
+('ART_TW4', 'Sana', 'Japanese', 'singer', 'Minatozaki Sana', 27, 'GRP_TW'),
+('ART_TW5', 'Jihyo', 'South Korean', 'singer', 'Park Ji-hyo', 27, 'GRP_TW'),
+('ART_TW6', 'Mina', 'Japanese', 'dancer', 'Myoui Mina', 26, 'GRP_TW'),
+('ART_TW7', 'Dahyun', 'South Korean', 'rapper', 'Kim Da-hyun', 25, 'GRP_TW'),
+('ART_TW8', 'Chaeyoung', 'South Korean', 'rapper', 'Son Chae-young', 24, 'GRP_TW'),
+('ART_TW9', 'Tzuyu', 'Taiwanese', 'visual', 'Chou Tzu-yu', 24, 'GRP_TW'),
 -- aespa
 ('ART_AE1', 'Karina', 'South Korean', 'dancer', 'Yoo Ji-min', 24, 'GRP_AE'),
 ('ART_AE2', 'Giselle', 'Japanese', 'rapper', 'Uchinaga Aeri', 23, 'GRP_AE'),
