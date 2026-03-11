@@ -27,7 +27,7 @@ Production Credits: Each track is composed and written by one or more producers/
 Fan Engagement: Fans can register for an official "Fanclub." Each fanclub is dedicated to one specific group.
 
 Our MCD :
-<img width="1612" height="1258" alt="image" src="https://github.com/user-attachments/assets/a260e831-e726-4835-b493-5e1e9f1b89d9" />
+<img width="1698" height="1317" alt="image" src="https://github.com/user-attachments/assets/44aefe01-e69e-494f-9045-bdcf54a013ae" />
 
 Our LDM : 
 GROUP_ = (Group_ID VARCHAR(50), Group_Name VARCHAR(50), Debut_Date VARCHAR(50), Lore_Description VARCHAR(50), Concept_type VARCHAR(50));
