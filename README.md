@@ -19,24 +19,17 @@ Here are the business rules and the data dictionary for our project.
 1. Business Rules
    
 These rules represent how our company operates daily. They define the relationships between our artists, their music, and how we talk to the fans.
-
 Artists & Groups: An artist can be a solo performer or a member of a group. A group must have at least one member. Each artist has a specific role (Main Vocal, Main Dancer, etc.).
-
 Concepts & Lore: Every group is assigned a "Concept" (e.g., Cyberpunk, Bubblegum Pop). Some groups, like aespa, have specific "Avatar" data or lore associated with them.
-
 Album Production: An album is produced by the company and is linked to exactly one group or solo artist. An album consists of multiple tracks.
-
 Track Details: A track has a title, a duration, and a "vibe" category. A track can appear on only one album (excluding remixes, which we treat as new tracks).
-
 Production Credits: Each track is composed and written by one or more producers/songwriters. We need to track their royalty percentages.
-
 Fan Engagement: Fans can register for an official "Fanclub." Each fanclub is dedicated to one specific group.
 
 Our MCD :
 <img width="1612" height="1258" alt="image" src="https://github.com/user-attachments/assets/a260e831-e726-4835-b493-5e1e9f1b89d9" />
 
 Our LDM : 
-
 GROUP_ = (Group_ID VARCHAR(50), Group_Name VARCHAR(50), Debut_Date VARCHAR(50), Lore_Description VARCHAR(50), Concept_type VARCHAR(50));
 
 ALBUM = (Album_ID VARCHAR(50), Album_Title VARCHAR(50), Release_Date VARCHAR(50), Album_Genre VARCHAR(50), #Group_ID);
