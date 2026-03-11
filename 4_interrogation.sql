@@ -19,3 +19,24 @@ FROM TRACK
 WHERE Is_Hit_Song = TRUE AND BPM > 115 
 ORDER BY BPM DESC;
 
+SELECT Group_ID, COUNT(Artist_ID) AS Nombre_Membres 
+FROM ARTIST 
+GROUP BY Group_ID 
+HAVING COUNT(Artist_ID) > 4;
+
+SELECT Nationality, AVG(Age) AS Age_Moyen 
+FROM ARTIST 
+GROUP BY Nationality;
+
+SELECT Album_ID, SUM(Duration_Sec) AS Duree_Totale_Album 
+FROM TRACK 
+GROUP BY Album_ID;
+
+SELECT Album_ID, MAX(BPM) AS Tempo_Max, MIN(BPM) AS Tempo_Min 
+FROM TRACK 
+GROUP BY Album_ID;
+
+SELECT Producer_ID, COUNT(Track_ID) AS Nombre_Titres 
+FROM composes 
+GROUP BY Producer_ID 
+HAVING COUNT(Track_ID) >= 3;
