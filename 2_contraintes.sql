@@ -1,7 +1,7 @@
 ALTER TABLE ARTIST 
-ADD CONSTRAINT chk_artist_age CHECK (Age >= 16) 
+ADD CONSTRAINT chk_artist_age CHECK (Age >= 16);
 
-ALTER TABLE ARTIST
+ALTER TABLE ARTIST 
 ADD CONSTRAINT chk_artist_position 
 CHECK (Position_ IN ('dancer', 'singer', 'rapper', 'visual'));
   
