@@ -1,5 +1,8 @@
+CREATE DATABASE IF NOT EXISTS label_management;
+Use label_management;
+
 -- 1. INSERT INTO GROUP_
-INSERT INTO GROUP_ (Group_ID, Group_Name, Debut_Date, Lore_Description, Concept_type) VALUES
+INSERT INTO GROUP_KPOP (Group_ID, Group_Name, Debut_Date, Lore_Description, Concept_type) VALUES
 ('GRP_BP', 'BLACKPINK', '2016-08-08', 'Girl crush, bad-ass attitude et luxe', 'Girl Crush'),
 ('GRP_TW', 'TWICE', '2015-10-20', 'Énergie lumineuse, amour et amitié', 'Color Pop'),
 ('GRP_AE', 'aespa', '2020-11-17', 'Voyage dans le métavers pour combattre le Black Mamba', 'Cyberpunk / Metaverse');
