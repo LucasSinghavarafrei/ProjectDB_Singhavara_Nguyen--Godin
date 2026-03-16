@@ -1,5 +1,4 @@
-CREATE DATABASE IF NOT EXISTS label_management;
-Use label_management;
+
 
 -- 1. INSERT INTO GROUP_
 INSERT INTO GROUP_KPOP (Group_ID, Group_Name, Debut_Date, Lore_Description, Concept_type) VALUES
